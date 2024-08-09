@@ -1,0 +1,5 @@
+console.log("Extension loaded .");
+let shopDomain   = Shopify.shop;
+let widgetScript = document.createElement("script");
+widgetScript.setAttribute("src", `https://whatsapp.bossapps.co/js/script?shop=${shopDomain}`);
+document.head.appendChild(widgetScript);
